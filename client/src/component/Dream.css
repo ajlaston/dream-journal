@@ -1,0 +1,44 @@
+.dream-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.dream-container h3{
+    text-align: center;
+}
+
+.dream-data {
+    flex: 1 1 auto;
+}
+
+.dream-btn-container button:nth-of-type(1){
+    background-color: rgb(57, 124, 240);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+    width: 60px;
+    margin-right: 8px;
+}
+
+.dream-btn-container button:nth-of-type(2){
+    background-color: rgb(234, 65, 65);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 60px;
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 760px){
+    .dream-container {
+        width: 300px;
+        
+    }
+}

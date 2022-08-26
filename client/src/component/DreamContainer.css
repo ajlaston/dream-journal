@@ -1,0 +1,11 @@
+.dream-post-container {
+    flex: 1 1 auto;
+
+}
+
+.dream-post-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

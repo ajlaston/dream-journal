@@ -1,0 +1,52 @@
+.create-dream-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-wrapper h2{
+    text-align: center;
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px;
+}
+
+.create-form input {
+    height: 30px;
+    border: none;
+    background-color: rgb(217, 221, 225);
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.create-form textarea {
+    height: 200px;
+    border: none;
+    background-color: rgb(217, 221, 225);
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.create-form button {
+    height: 46px;
+    background-color: rgb(71, 205, 71);
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width : 760px){
+    .create-form {
+        width: 340px;
+    }
+}
